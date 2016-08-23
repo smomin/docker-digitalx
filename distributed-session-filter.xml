@@ -1,0 +1,17 @@
+    <context-param>
+        <description>Spring Expression Language Support</description>
+        <param-name>springJspExpressionSupport</param-name>
+        <param-value>false</param-value>
+    </context-param>
+
+    <filter>
+        <filter-name>springSessionRepositoryFilter</filter-name>
+        <filter-class>org.jahia.bin.filters.ModuleDelegatingFilterProxy</filter-class>
+        <async-supported>true</async-supported>
+    </filter>
+
+    <filter>
+        <filter-name>httpSessionSynchronizerFilter</filter-name>
+        <filter-class>org.jahia.bin.filters.ModuleDelegatingFilterProxy</filter-class>
+        <async-supported>true</async-supported>
+    </filter>
