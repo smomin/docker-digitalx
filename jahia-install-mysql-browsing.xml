@@ -37,7 +37,7 @@
         <userInput>
             <entry key="dbSettings.connection.driver.mysql" value="com.mysql.jdbc.Driver"/>
             <entry key="dbSettings.connection.url.mysql" value="jdbc:mysql://mysql/jahia?useUnicode=true&amp;characterEncoding=UTF-8&amp;useServerPrepStmts=false"/>
-            <entry key="dbSettings.dbms.createTables" value="true"/>
+            <entry key="dbSettings.dbms.createTables" value="false"/>
             <entry key="dbSettings.connection.username" value="jahia"/>
             <entry key="dbSettings.dbms.storeFilesInDB" value="false"/>
             <entry key="dbSettings.connection.password" value="jahia"/>
@@ -54,7 +54,7 @@
         <userInput>
             <entry key="tomcat.ajpPort" value="8009"/>
             <entry key="tomcat.serverPort" value="8005"/>
-            <entry key="tomcat.jvmRoute" value="node1"/>
+            <entry key="tomcat.jvmRoute" value="node2"/>
             <entry key="catalina.otherOptions" value=""/>
             <entry key="tomcat.sslPort" value="8443"/>
             <entry key="catalina.permSize" value="384"/>
@@ -75,7 +75,7 @@
     <com.izforge.izpack.panels.UserInputPanel id="cluster">
         <userInput>
           <entry key="dbSettings.dbms.fileDataStorePath" value="/opt/data"/>
-          <entry key="cluster.processingServer" value="true"/>
+          <entry key="cluster.processingServer" value="false"/>
           <entry key="cluster.node.ipAddress" value="&lt;auto&gt;"/>
           <entry key="cluster.node.port" value="7870"/>
           <entry key="cluster.node.serverId" value="&lt;auto&gt;"/>
